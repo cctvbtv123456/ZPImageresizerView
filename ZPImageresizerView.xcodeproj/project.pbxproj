@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027A334520DBFE0FE966A222 /* libPods-ZPImageresizerViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F6A7A506FA2E0F8B268D38 /* libPods-ZPImageresizerViewUITests.a */; };
+		19DF4CAE81C42A40CF79EC2D /* libPods-ZPImageresizerViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE354F0E19EC49521DD97AB /* libPods-ZPImageresizerViewTests.a */; };
+		79A0E31FD9AD24E323AA6BF7 /* libPods-ZPImageresizerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781C5CEA63B158E8770BBFD /* libPods-ZPImageresizerView.a */; };
 		D0851FE92227E0F700D56AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0851FE82227E0F700D56AD4 /* AppDelegate.m */; };
 		D0851FEC2227E0F700D56AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0851FEB2227E0F700D56AD4 /* ViewController.m */; };
 		D0851FEF2227E0F700D56AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0851FED2227E0F700D56AD4 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F6A7A506FA2E0F8B268D38 /* libPods-ZPImageresizerViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPImageresizerViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2781C5CEA63B158E8770BBFD /* libPods-ZPImageresizerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPImageresizerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE354F0E19EC49521DD97AB /* libPods-ZPImageresizerViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPImageresizerViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB8620CD362BB659217D03 /* Pods-ZPImageresizerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewUITests/Pods-ZPImageresizerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BB287DF5D61BE5669ABB8F8 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewUITests/Pods-ZPImageresizerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5A807678AB6A1A5D2AD232 /* Pods-ZPImageresizerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerView/Pods-ZPImageresizerView.release.xcconfig"; sourceTree = "<group>"; };
+		B13328197A1DE2BC36C82278 /* Pods-ZPImageresizerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerView/Pods-ZPImageresizerView.debug.xcconfig"; sourceTree = "<group>"; };
+		BDEB37972C5092C745745D8B /* Pods-ZPImageresizerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA4E452FC946E8A015D38EC7 /* Pods-ZPImageresizerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0851FE42227E0F700D56AD4 /* ZPImageresizerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPImageresizerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0851FE72227E0F700D56AD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0851FE82227E0F700D56AD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A0E31FD9AD24E323AA6BF7 /* libPods-ZPImageresizerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DF4CAE81C42A40CF79EC2D /* libPods-ZPImageresizerViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027A334520DBFE0FE966A222 /* libPods-ZPImageresizerViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		604F5976A5D0D773F544B1AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B13328197A1DE2BC36C82278 /* Pods-ZPImageresizerView.debug.xcconfig */,
+				8D5A807678AB6A1A5D2AD232 /* Pods-ZPImageresizerView.release.xcconfig */,
+				CA4E452FC946E8A015D38EC7 /* Pods-ZPImageresizerViewTests.debug.xcconfig */,
+				BDEB37972C5092C745745D8B /* Pods-ZPImageresizerViewTests.release.xcconfig */,
+				7BB287DF5D61BE5669ABB8F8 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */,
+				5BBB8620CD362BB659217D03 /* Pods-ZPImageresizerViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0851FDB2227E0F700D56AD4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				D0851FFF2227E0F800D56AD4 /* ZPImageresizerViewTests */,
 				D085200A2227E0F800D56AD4 /* ZPImageresizerViewUITests */,
 				D0851FE52227E0F700D56AD4 /* Products */,
+				604F5976A5D0D773F544B1AF /* Pods */,
+				FACFBEC349D21EBDD80FB217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +162,16 @@
 			path = ZPImageresizerViewUITests;
 			sourceTree = "<group>";
 		};
+		FACFBEC349D21EBDD80FB217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2781C5CEA63B158E8770BBFD /* libPods-ZPImageresizerView.a */,
+				3BE354F0E19EC49521DD97AB /* libPods-ZPImageresizerViewTests.a */,
+				01F6A7A506FA2E0F8B268D38 /* libPods-ZPImageresizerViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08520102227E0F800D56AD4 /* Build configuration list for PBXNativeTarget "ZPImageresizerView" */;
 			buildPhases = (
+				B4EFBA0F6F2196556545BFAF /* [CP] Check Pods Manifest.lock */,
 				D0851FE02227E0F700D56AD4 /* Sources */,
 				D0851FE12227E0F700D56AD4 /* Frameworks */,
 				D0851FE22227E0F700D56AD4 /* Resources */,
+				46D83B2BEEBC22387EF70EC0 /* [CP] Embed Pods Frameworks */,
+				4A1C75A855C205CB488B38B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08520132227E0F800D56AD4 /* Build configuration list for PBXNativeTarget "ZPImageresizerViewTests" */;
 			buildPhases = (
+				E622D5F086D402E6F25F96E9 /* [CP] Check Pods Manifest.lock */,
 				D0851FF82227E0F800D56AD4 /* Sources */,
 				D0851FF92227E0F800D56AD4 /* Frameworks */,
 				D0851FFA2227E0F800D56AD4 /* Resources */,
+				9D59AEA887610BF7A784B70F /* [CP] Embed Pods Frameworks */,
+				7464541F341549C586C592DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08520162227E0F800D56AD4 /* Build configuration list for PBXNativeTarget "ZPImageresizerViewUITests" */;
 			buildPhases = (
+				B98C46AC34DD2AC1A1CE47D5 /* [CP] Check Pods Manifest.lock */,
 				D08520032227E0F800D56AD4 /* Sources */,
 				D08520042227E0F800D56AD4 /* Frameworks */,
 				D08520052227E0F800D56AD4 /* Resources */,
+				6175B2EF06ACE5E3BA99F8F1 /* [CP] Embed Pods Frameworks */,
+				036273BD199C6D5B9BC1DAF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		036273BD199C6D5B9BC1DAF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerViewUITests/Pods-ZPImageresizerViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46D83B2BEEBC22387EF70EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerView/Pods-ZPImageresizerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A1C75A855C205CB488B38B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerView/Pods-ZPImageresizerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6175B2EF06ACE5E3BA99F8F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerViewUITests/Pods-ZPImageresizerViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7464541F341549C586C592DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D59AEA887610BF7A784B70F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EFBA0F6F2196556545BFAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPImageresizerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98C46AC34DD2AC1A1CE47D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPImageresizerViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E622D5F086D402E6F25F96E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPImageresizerViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0851FE02227E0F700D56AD4 /* Sources */ = {
@@ -433,15 +629,13 @@
 		};
 		D08520112227E0F800D56AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13328197A1DE2BC36C82278 /* Pods-ZPImageresizerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,15 +644,13 @@
 		};
 		D08520122227E0F800D56AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A807678AB6A1A5D2AD232 /* Pods-ZPImageresizerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,16 +659,13 @@
 		};
 		D08520142227E0F800D56AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4E452FC946E8A015D38EC7 /* Pods-ZPImageresizerViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,16 +675,13 @@
 		};
 		D08520152227E0F800D56AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEB37972C5092C745745D8B /* Pods-ZPImageresizerViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,15 +691,12 @@
 		};
 		D08520172227E0F800D56AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB287DF5D61BE5669ABB8F8 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,15 +706,12 @@
 		};
 		D08520182227E0F800D56AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBB8620CD362BB659217D03 /* Pods-ZPImageresizerViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC064982093BE72214183C9177BF567 /* Pods-ZPImageresizerViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F848743F81982EDE099EEA114F2686 /* Pods-ZPImageresizerViewTests-dummy.m */; };
+		26EA0A9A12366E30CDA02ED01E0C8298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3632935D091AA3547E35E92E881EA30D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4BE3439AD27D8AF974ADF01F3103A84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5019C1FA6CB61107974C7BB8A320A1D7 /* Pods-ZPImageresizerViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0A10AFC009843D13C9AD9B00761F4A /* Pods-ZPImageresizerViewUITests-dummy.m */; };
+		532B3C8E89998124418A1BA1955DE738 /* Pods-ZPImageresizerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C3289B936CEED5C1DE36092756F49 /* Pods-ZPImageresizerView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011E891469FE940C8AFD2680A126D3A0 /* Pods-ZPImageresizerView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerView-frameworks.sh"; sourceTree = "<group>"; };
+		08F848743F81982EDE099EEA114F2686 /* Pods-ZPImageresizerViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPImageresizerViewTests-dummy.m"; sourceTree = "<group>"; };
+		0F2BEFBBB6836F4AF1DBFE44F27632C0 /* Pods-ZPImageresizerView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPImageresizerView-acknowledgements.plist"; sourceTree = "<group>"; };
+		12B5145DAACA54427662EF27CCA22F94 /* libPods-ZPImageresizerViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPImageresizerViewUITests.a"; path = "libPods-ZPImageresizerViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CE2BDDE445721302BEE2B1026687E8 /* Pods-ZPImageresizerViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		14B49CE07F2DD9EF885A817BBEFE8BE8 /* Pods-ZPImageresizerView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerView-resources.sh"; sourceTree = "<group>"; };
+		213D654238F4EECBE89600A3FFF1D4F3 /* Pods-ZPImageresizerViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPImageresizerViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35709A4BA361AAB43C41691E73348E6B /* Pods-ZPImageresizerViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPImageresizerViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C732C46C640F7FE4A56AC67DBCBE278 /* Pods-ZPImageresizerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B4C3289B936CEED5C1DE36092756F49 /* Pods-ZPImageresizerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPImageresizerView-dummy.m"; sourceTree = "<group>"; };
+		5AFD8666CF06C6B8E33842F232BBC3A8 /* Pods-ZPImageresizerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AEE2E1BC3ACB38EABC82CD3B715A954 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CBDF1B1C69FA0D9C6CC02E07BEB1DF7 /* Pods-ZPImageresizerViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D5A33BB7A462308405DD4717704DB3C /* Pods-ZPImageresizerViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerViewTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A856F4B1EA4ECCFB5E7E6E7C196D87DF /* Pods-ZPImageresizerView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPImageresizerView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B03F1B2BC9BD157778C0A8F9B20F718B /* Pods-ZPImageresizerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerView.release.xcconfig"; sourceTree = "<group>"; };
+		B397706861DE5E3DB0EA49F6D7DE92CA /* Pods-ZPImageresizerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPImageresizerView.debug.xcconfig"; sourceTree = "<group>"; };
+		B6F5CAB6F420BDA72E9FCB01FC031962 /* Pods-ZPImageresizerViewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerViewUITests-resources.sh"; sourceTree = "<group>"; };
+		B74732D21DD457D0EBFEF5CC8762B5B6 /* Pods-ZPImageresizerViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPImageresizerViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA8C5A6840FBC9F0E11FFA0CEC7B80C6 /* libPods-ZPImageresizerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPImageresizerView.a"; path = "libPods-ZPImageresizerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0A10AFC009843D13C9AD9B00761F4A /* Pods-ZPImageresizerViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPImageresizerViewUITests-dummy.m"; sourceTree = "<group>"; };
+		E3AE949B7C045130B3C0460C1003063C /* Pods-ZPImageresizerViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPImageresizerViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E92A18DBE89AD68C75562257D861A668 /* Pods-ZPImageresizerViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPImageresizerViewTests-resources.sh"; sourceTree = "<group>"; };
+		FC90A91332BC59672B6DD46C22B4766C /* libPods-ZPImageresizerViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPImageresizerViewTests.a"; path = "libPods-ZPImageresizerViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C98533F343ECCCCD59A73C83B66394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632935D091AA3547E35E92E881EA30D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A864CE4690B6CBBC0A35578FFF090A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE3439AD27D8AF974ADF01F3103A84F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED580FBAC8A3FA5C74EB4B18CF5C249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EA0A9A12366E30CDA02ED01E0C8298 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31ED13AA4EE61EF52FD3ECF39FBA9C50 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				824B867BFF8240238147F9C17B1B0C84 /* Pods-ZPImageresizerView */,
+				E5D051767E80FB4C1001829C1A7C2BCC /* Pods-ZPImageresizerViewTests */,
+				64A85CAC34DFA3F7F9CCC39C65EB1F0A /* Pods-ZPImageresizerViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64A85CAC34DFA3F7F9CCC39C65EB1F0A /* Pods-ZPImageresizerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				213D654238F4EECBE89600A3FFF1D4F3 /* Pods-ZPImageresizerViewUITests-acknowledgements.markdown */,
+				E3AE949B7C045130B3C0460C1003063C /* Pods-ZPImageresizerViewUITests-acknowledgements.plist */,
+				CB0A10AFC009843D13C9AD9B00761F4A /* Pods-ZPImageresizerViewUITests-dummy.m */,
+				12CE2BDDE445721302BEE2B1026687E8 /* Pods-ZPImageresizerViewUITests-frameworks.sh */,
+				B6F5CAB6F420BDA72E9FCB01FC031962 /* Pods-ZPImageresizerViewUITests-resources.sh */,
+				6AEE2E1BC3ACB38EABC82CD3B715A954 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */,
+				8CBDF1B1C69FA0D9C6CC02E07BEB1DF7 /* Pods-ZPImageresizerViewUITests.release.xcconfig */,
+			);
+			name = "Pods-ZPImageresizerViewUITests";
+			path = "Target Support Files/Pods-ZPImageresizerViewUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C74112F8EF5DDFF8A285174DE4B45DC9 /* Products */,
+				31ED13AA4EE61EF52FD3ECF39FBA9C50 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		824B867BFF8240238147F9C17B1B0C84 /* Pods-ZPImageresizerView */ = {
+			isa = PBXGroup;
+			children = (
+				A856F4B1EA4ECCFB5E7E6E7C196D87DF /* Pods-ZPImageresizerView-acknowledgements.markdown */,
+				0F2BEFBBB6836F4AF1DBFE44F27632C0 /* Pods-ZPImageresizerView-acknowledgements.plist */,
+				4B4C3289B936CEED5C1DE36092756F49 /* Pods-ZPImageresizerView-dummy.m */,
+				011E891469FE940C8AFD2680A126D3A0 /* Pods-ZPImageresizerView-frameworks.sh */,
+				14B49CE07F2DD9EF885A817BBEFE8BE8 /* Pods-ZPImageresizerView-resources.sh */,
+				B397706861DE5E3DB0EA49F6D7DE92CA /* Pods-ZPImageresizerView.debug.xcconfig */,
+				B03F1B2BC9BD157778C0A8F9B20F718B /* Pods-ZPImageresizerView.release.xcconfig */,
+			);
+			name = "Pods-ZPImageresizerView";
+			path = "Target Support Files/Pods-ZPImageresizerView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74112F8EF5DDFF8A285174DE4B45DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C5A6840FBC9F0E11FFA0CEC7B80C6 /* libPods-ZPImageresizerView.a */,
+				FC90A91332BC59672B6DD46C22B4766C /* libPods-ZPImageresizerViewTests.a */,
+				12B5145DAACA54427662EF27CCA22F94 /* libPods-ZPImageresizerViewUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5D051767E80FB4C1001829C1A7C2BCC /* Pods-ZPImageresizerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B74732D21DD457D0EBFEF5CC8762B5B6 /* Pods-ZPImageresizerViewTests-acknowledgements.markdown */,
+				35709A4BA361AAB43C41691E73348E6B /* Pods-ZPImageresizerViewTests-acknowledgements.plist */,
+				08F848743F81982EDE099EEA114F2686 /* Pods-ZPImageresizerViewTests-dummy.m */,
+				8D5A33BB7A462308405DD4717704DB3C /* Pods-ZPImageresizerViewTests-frameworks.sh */,
+				E92A18DBE89AD68C75562257D861A668 /* Pods-ZPImageresizerViewTests-resources.sh */,
+				3C732C46C640F7FE4A56AC67DBCBE278 /* Pods-ZPImageresizerViewTests.debug.xcconfig */,
+				5AFD8666CF06C6B8E33842F232BBC3A8 /* Pods-ZPImageresizerViewTests.release.xcconfig */,
+			);
+			name = "Pods-ZPImageresizerViewTests";
+			path = "Target Support Files/Pods-ZPImageresizerViewTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EE892AB34A75D351758D33D3EACF04 /* Pods-ZPImageresizerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E442597CFD563AF966045B4933D1F742 /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerView" */;
+			buildPhases = (
+				8B4238CF2C2B5B99CC09909B9232D89F /* Sources */,
+				FED580FBAC8A3FA5C74EB4B18CF5C249 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZPImageresizerView";
+			productName = "Pods-ZPImageresizerView";
+			productReference = CA8C5A6840FBC9F0E11FFA0CEC7B80C6 /* libPods-ZPImageresizerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8545BF95C02693E06A586D27E94E329C /* Pods-ZPImageresizerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A0F5C3889E5A2AA83822B982E005FA /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerViewTests" */;
+			buildPhases = (
+				96DF8545C120EFB1047464A9754122DD /* Sources */,
+				A864CE4690B6CBBC0A35578FFF090A76 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZPImageresizerViewTests";
+			productName = "Pods-ZPImageresizerViewTests";
+			productReference = FC90A91332BC59672B6DD46C22B4766C /* libPods-ZPImageresizerViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E536AF53197BBC60F9476993DDA1093 /* Pods-ZPImageresizerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516D04F5D7E1ECA0A78D28DA2E73EA0C /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerViewUITests" */;
+			buildPhases = (
+				2DEDAD7B4A011DA30BCFD2F25B9CADBD /* Sources */,
+				3C98533F343ECCCCD59A73C83B66394A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZPImageresizerViewUITests";
+			productName = "Pods-ZPImageresizerViewUITests";
+			productReference = 12B5145DAACA54427662EF27CCA22F94 /* libPods-ZPImageresizerViewUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C74112F8EF5DDFF8A285174DE4B45DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EE892AB34A75D351758D33D3EACF04 /* Pods-ZPImageresizerView */,
+				8545BF95C02693E06A586D27E94E329C /* Pods-ZPImageresizerViewTests */,
+				8E536AF53197BBC60F9476993DDA1093 /* Pods-ZPImageresizerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEDAD7B4A011DA30BCFD2F25B9CADBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5019C1FA6CB61107974C7BB8A320A1D7 /* Pods-ZPImageresizerViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4238CF2C2B5B99CC09909B9232D89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532B3C8E89998124418A1BA1955DE738 /* Pods-ZPImageresizerView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DF8545C120EFB1047464A9754122DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC064982093BE72214183C9177BF567 /* Pods-ZPImageresizerViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B6FA96FAA611A62279C49F6E01C059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C5E8FA1D52BB6E7646972C64EFB6D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C732C46C640F7FE4A56AC67DBCBE278 /* Pods-ZPImageresizerViewTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3691EFF605EB29787F8A46C5B6BE1D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4AC980CBDA72C3A6E1CEFD0972AE1B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03F1B2BC9BD157778C0A8F9B20F718B /* Pods-ZPImageresizerView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57647FB7DF9AFBC17882A8B6F7CBCECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEE2E1BC3ACB38EABC82CD3B715A954 /* Pods-ZPImageresizerViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F4394E08078A3F21510F9585C7623F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B397706861DE5E3DB0EA49F6D7DE92CA /* Pods-ZPImageresizerView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840B601BE2947D4272DE56F557FE70C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFD8666CF06C6B8E33842F232BBC3A8 /* Pods-ZPImageresizerViewTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFC49CBD932DDC739D518DCFEF64A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBDF1B1C69FA0D9C6CC02E07BEB1DF7 /* Pods-ZPImageresizerViewUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A0F5C3889E5A2AA83822B982E005FA /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5E8FA1D52BB6E7646972C64EFB6D4C /* Debug */,
+				840B601BE2947D4272DE56F557FE70C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FA96FAA611A62279C49F6E01C059F /* Debug */,
+				3691EFF605EB29787F8A46C5B6BE1D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516D04F5D7E1ECA0A78D28DA2E73EA0C /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57647FB7DF9AFBC17882A8B6F7CBCECC /* Debug */,
+				DEFC49CBD932DDC739D518DCFEF64A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E442597CFD563AF966045B4933D1F742 /* Build configuration list for PBXNativeTarget "Pods-ZPImageresizerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F4394E08078A3F21510F9585C7623F /* Debug */,
+				4AC980CBDA72C3A6E1CEFD0972AE1B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
