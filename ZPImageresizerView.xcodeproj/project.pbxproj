@@ -18,6 +18,10 @@
 		D0851FF72227E0F800D56AD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0851FF62227E0F800D56AD4 /* main.m */; };
 		D08520012227E0F800D56AD4 /* ZPImageresizerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08520002227E0F800D56AD4 /* ZPImageresizerViewTests.m */; };
 		D085200C2227E0F800D56AD4 /* ZPImageresizerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D085200B2227E0F800D56AD4 /* ZPImageresizerViewUITests.m */; };
+		D08520232227E35C00D56AD4 /* ZPImageresizerConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = D085201A2227E35C00D56AD4 /* ZPImageresizerConfigure.m */; };
+		D08520242227E35C00D56AD4 /* UIImage+ZPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */; };
+		D08520252227E35C00D56AD4 /* ZPImageresizerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08520212227E35C00D56AD4 /* ZPImageresizerView.m */; };
+		D08520262227E35C00D56AD4 /* ZPImageresizerFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = D08520222227E35C00D56AD4 /* ZPImageresizerFrameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,15 @@
 		D08520072227E0F800D56AD4 /* ZPImageresizerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPImageresizerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D085200B2227E0F800D56AD4 /* ZPImageresizerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPImageresizerViewUITests.m; sourceTree = "<group>"; };
 		D085200D2227E0F800D56AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D085201A2227E35C00D56AD4 /* ZPImageresizerConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPImageresizerConfigure.m; sourceTree = "<group>"; };
+		D085201B2227E35C00D56AD4 /* ZPImageresizerTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPImageresizerTypedef.h; sourceTree = "<group>"; };
+		D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZPExtension.m"; sourceTree = "<group>"; };
+		D085201D2227E35C00D56AD4 /* ZPImageresizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPImageresizerView.h; sourceTree = "<group>"; };
+		D085201E2227E35C00D56AD4 /* ZPImageresizerFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPImageresizerFrameView.h; sourceTree = "<group>"; };
+		D085201F2227E35C00D56AD4 /* UIImage+ZPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZPExtension.h"; sourceTree = "<group>"; };
+		D08520202227E35C00D56AD4 /* ZPImageresizerConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPImageresizerConfigure.h; sourceTree = "<group>"; };
+		D08520212227E35C00D56AD4 /* ZPImageresizerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPImageresizerView.m; sourceTree = "<group>"; };
+		D08520222227E35C00D56AD4 /* ZPImageresizerFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPImageresizerFrameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +144,7 @@
 		D0851FE62227E0F700D56AD4 /* ZPImageresizerView */ = {
 			isa = PBXGroup;
 			children = (
+				D08520192227E35C00D56AD4 /* ZPImageresizerView */,
 				D0851FE72227E0F700D56AD4 /* AppDelegate.h */,
 				D0851FE82227E0F700D56AD4 /* AppDelegate.m */,
 				D0851FEA2227E0F700D56AD4 /* ViewController.h */,
@@ -160,6 +174,22 @@
 				D085200D2227E0F800D56AD4 /* Info.plist */,
 			);
 			path = ZPImageresizerViewUITests;
+			sourceTree = "<group>";
+		};
+		D08520192227E35C00D56AD4 /* ZPImageresizerView */ = {
+			isa = PBXGroup;
+			children = (
+				D085201A2227E35C00D56AD4 /* ZPImageresizerConfigure.m */,
+				D085201B2227E35C00D56AD4 /* ZPImageresizerTypedef.h */,
+				D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */,
+				D085201D2227E35C00D56AD4 /* ZPImageresizerView.h */,
+				D085201E2227E35C00D56AD4 /* ZPImageresizerFrameView.h */,
+				D085201F2227E35C00D56AD4 /* UIImage+ZPExtension.h */,
+				D08520202227E35C00D56AD4 /* ZPImageresizerConfigure.h */,
+				D08520212227E35C00D56AD4 /* ZPImageresizerView.m */,
+				D08520222227E35C00D56AD4 /* ZPImageresizerFrameView.m */,
+			);
+			path = ZPImageresizerView;
 			sourceTree = "<group>";
 		};
 		FACFBEC349D21EBDD80FB217 /* Frameworks */ = {
@@ -460,7 +490,11 @@
 			files = (
 				D0851FEC2227E0F700D56AD4 /* ViewController.m in Sources */,
 				D0851FF72227E0F800D56AD4 /* main.m in Sources */,
+				D08520242227E35C00D56AD4 /* UIImage+ZPExtension.m in Sources */,
 				D0851FE92227E0F700D56AD4 /* AppDelegate.m in Sources */,
+				D08520262227E35C00D56AD4 /* ZPImageresizerFrameView.m in Sources */,
+				D08520232227E35C00D56AD4 /* ZPImageresizerConfigure.m in Sources */,
+				D08520252227E35C00D56AD4 /* ZPImageresizerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +669,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -650,7 +687,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,7 +705,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -681,7 +725,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,7 +744,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -711,7 +763,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNLSTR73NT;
 				INFOPLIST_FILE = ZPImageresizerViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPImageresizerViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
