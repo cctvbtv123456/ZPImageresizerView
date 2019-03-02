@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZPImageresizerView/ZPImageresizerViewHeader.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    ZPImageresizerView *imgeresizerView = [[ZPImageresizerView alloc] initWithResizeImage:[UIImage imageNamed:@"Girl.jpg"] frame:self.view.frame maskType:ZPDarkBlurMaskType frameType:ZPConciseFrameType animationCurve:ZPAnimationCurveEaseInOut strokeColor:[UIColor lightGrayColor] bgColor:[UIColor whiteColor] maskAlpha:0/3 verBaseMargin:5 horBaseMargin:5 resizeWHScale:0 contentInsets:UIEdgeInsetsMake(0, 0, 0, 0) imageresizerIsCanRecovery:^(BOOL isCanRecovery) {
+        
+    } imageresizerIsPrepareToScale:^(BOOL isPrepareToScale) {
+        
+    }];
+                                           
+                                           
+   [self.view addSubview:imgeresizerView];
 }
 
 

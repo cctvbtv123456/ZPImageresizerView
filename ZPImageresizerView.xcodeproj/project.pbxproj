@@ -10,6 +10,7 @@
 		027A334520DBFE0FE966A222 /* libPods-ZPImageresizerViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F6A7A506FA2E0F8B268D38 /* libPods-ZPImageresizerViewUITests.a */; };
 		19DF4CAE81C42A40CF79EC2D /* libPods-ZPImageresizerViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE354F0E19EC49521DD97AB /* libPods-ZPImageresizerViewTests.a */; };
 		79A0E31FD9AD24E323AA6BF7 /* libPods-ZPImageresizerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2781C5CEA63B158E8770BBFD /* libPods-ZPImageresizerView.a */; };
+		D01829D2222A3CA9000FDBB8 /* Girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01829D1222A3CA9000FDBB8 /* Girl.jpg */; };
 		D0851FE92227E0F700D56AD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0851FE82227E0F700D56AD4 /* AppDelegate.m */; };
 		D0851FEC2227E0F700D56AD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0851FEB2227E0F700D56AD4 /* ViewController.m */; };
 		D0851FEF2227E0F700D56AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0851FED2227E0F700D56AD4 /* Main.storyboard */; };
@@ -51,6 +52,8 @@
 		B13328197A1DE2BC36C82278 /* Pods-ZPImageresizerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerView/Pods-ZPImageresizerView.debug.xcconfig"; sourceTree = "<group>"; };
 		BDEB37972C5092C745745D8B /* Pods-ZPImageresizerViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA4E452FC946E8A015D38EC7 /* Pods-ZPImageresizerViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPImageresizerViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPImageresizerViewTests/Pods-ZPImageresizerViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D01829D0222A3BAF000FDBB8 /* ZPImageresizerViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPImageresizerViewHeader.h; sourceTree = "<group>"; };
+		D01829D1222A3CA9000FDBB8 /* Girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Girl.jpg; sourceTree = "<group>"; };
 		D0851FE42227E0F700D56AD4 /* ZPImageresizerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPImageresizerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0851FE72227E0F700D56AD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0851FE82227E0F700D56AD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +157,7 @@
 				D0851FF22227E0F800D56AD4 /* LaunchScreen.storyboard */,
 				D0851FF52227E0F800D56AD4 /* Info.plist */,
 				D0851FF62227E0F800D56AD4 /* main.m */,
+				D01829D1222A3CA9000FDBB8 /* Girl.jpg */,
 			);
 			path = ZPImageresizerView;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 				D08520222227E35C00D56AD4 /* ZPImageresizerFrameView.m */,
 				D085201F2227E35C00D56AD4 /* UIImage+ZPExtension.h */,
 				D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */,
+				D01829D0222A3BAF000FDBB8 /* ZPImageresizerViewHeader.h */,
 			);
 			path = ZPImageresizerView;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0851FF42227E0F800D56AD4 /* LaunchScreen.storyboard in Resources */,
+				D01829D2222A3CA9000FDBB8 /* Girl.jpg in Resources */,
 				D0851FF12227E0F800D56AD4 /* Assets.xcassets in Resources */,
 				D0851FEF2227E0F700D56AD4 /* Main.storyboard in Resources */,
 			);
