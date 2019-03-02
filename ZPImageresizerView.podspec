@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ZPImageresizerView"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A short description of ZPImageresizerView."
   s.description  = "该SDK是一个截图功能，方便快捷，使用起来很爽"  #描述
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "Justin" => "1272524311@qq.com" }
 
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/cctvbtv123456/ZPImageresizerView.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/cctvbtv123456/ZPImageresizerView.git", :tag => "1.0.2" }
   s.source_files  = "Classes", "ZPImageresizerView/ZPImageresizerView/**/*.{h,m}"
 
   s.requires_arc = true

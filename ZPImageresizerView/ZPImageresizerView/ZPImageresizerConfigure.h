@@ -75,20 +75,20 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isClockwiseRotation;
 
 
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_resizeImage)(UIImage *resizeImage);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_viewFrame)(CGRect viewFrame);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_maskType)(ZPImageresizerMaskType maskType);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_frameType)(ZPImageresizerFrameType frameType);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_animationCurve)(ZPAnimationCurve animationCurve);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_strokeColor)(UIColor *strokeColor);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_bgColor)(UIColor *bgColor);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_maskAlpha)(CGFloat maskAlpha);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_resizeWHScale)(CGFloat resizeWHScale);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_edgeLineIsEnabled)(BOOL edgeLineIsEnabled);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_verBaseMargin)(CGFloat verBaseMargin);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_horBaseMargin)(CGFloat horBaseMargin);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_contentInsets)(UIEdgeInsets contentInsets);
-@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^jp_isClockwiseRotation)(BOOL isClockwiseRotation);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_resizeImage)(UIImage *resizeImage);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_viewFrame)(CGRect viewFrame);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_maskType)(ZPImageresizerMaskType maskType);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_frameType)(ZPImageresizerFrameType frameType);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_animationCurve)(ZPAnimationCurve animationCurve);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_strokeColor)(UIColor *strokeColor);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_bgColor)(UIColor *bgColor);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_maskAlpha)(CGFloat maskAlpha);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_resizeWHScale)(CGFloat resizeWHScale);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_edgeLineIsEnabled)(BOOL edgeLineIsEnabled);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_verBaseMargin)(CGFloat verBaseMargin);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_horBaseMargin)(CGFloat horBaseMargin);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_contentInsets)(UIEdgeInsets contentInsets);
+@property (nonatomic, copy, readonly) ZPImageresizerConfigure *(^zp_isClockwiseRotation)(BOOL isClockwiseRotation);
     
 @end
 

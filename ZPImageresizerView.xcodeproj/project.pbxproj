@@ -179,15 +179,15 @@
 		D08520192227E35C00D56AD4 /* ZPImageresizerView */ = {
 			isa = PBXGroup;
 			children = (
-				D085201A2227E35C00D56AD4 /* ZPImageresizerConfigure.m */,
 				D085201B2227E35C00D56AD4 /* ZPImageresizerTypedef.h */,
-				D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */,
 				D085201D2227E35C00D56AD4 /* ZPImageresizerView.h */,
-				D085201E2227E35C00D56AD4 /* ZPImageresizerFrameView.h */,
-				D085201F2227E35C00D56AD4 /* UIImage+ZPExtension.h */,
-				D08520202227E35C00D56AD4 /* ZPImageresizerConfigure.h */,
 				D08520212227E35C00D56AD4 /* ZPImageresizerView.m */,
+				D08520202227E35C00D56AD4 /* ZPImageresizerConfigure.h */,
+				D085201A2227E35C00D56AD4 /* ZPImageresizerConfigure.m */,
+				D085201E2227E35C00D56AD4 /* ZPImageresizerFrameView.h */,
 				D08520222227E35C00D56AD4 /* ZPImageresizerFrameView.m */,
+				D085201F2227E35C00D56AD4 /* UIImage+ZPExtension.h */,
+				D085201C2227E35C00D56AD4 /* UIImage+ZPExtension.m */,
 			);
 			path = ZPImageresizerView;
 			sourceTree = "<group>";
